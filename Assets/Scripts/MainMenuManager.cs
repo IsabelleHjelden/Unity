@@ -8,6 +8,8 @@ public class MainMenuManager : MonoBehaviour
 
     [SerializeField] private Button game1Button;
     [SerializeField] private Button NotQuitePlatformerButton;
+    [SerializeField] private Button threeDSpawnButton;
+
     [SerializeField] private Button creditsOpenButton;
     [SerializeField] private Button creditsClosedButton;
     [SerializeField] private GameObject creditsUI;
@@ -24,6 +26,8 @@ public class MainMenuManager : MonoBehaviour
 
         game1Button.onClick.AddListener(() => LoadingScreen.LoadScene("GameScene1"));
         NotQuitePlatformerButton.onClick.AddListener(() => LoadingScreen.LoadScene("NotQuitePlatformer"));
+        threeDSpawnButton.onClick.AddListener(() => LoadingScreen.LoadScene("3DSpawn"));
+
 
     }
 

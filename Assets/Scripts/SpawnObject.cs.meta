@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 9caa40151579b774e8b576d438d9c159
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - meshRenderer: {instanceID: 0}
+  - audioSource: {fileID: 2759867640768977289, guid: fd73e57fee9cfdf48878651e90423053, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
