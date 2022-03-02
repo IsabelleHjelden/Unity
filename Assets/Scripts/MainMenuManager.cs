@@ -10,6 +10,8 @@ public class MainMenuManager : MonoBehaviour
     [SerializeField] private Button NotQuitePlatformerButton;
     [SerializeField] private Button threeDSpawnButton;
     [SerializeField] private Button PongButton;
+    [SerializeField] private Button FPSButton;
+
 
 
     [SerializeField] private Button creditsOpenButton;
@@ -23,6 +25,7 @@ public class MainMenuManager : MonoBehaviour
     // Start is called before the first frame update
     void Awake()
     {
+        Cursor.lockState = CursorLockMode.None;
         creditsOpenButton.onClick.AddListener(() => { creditsUI.SetActive(true); });
         creditsClosedButton.onClick.AddListener(() => { creditsUI.SetActive(false); });
 
@@ -30,6 +33,8 @@ public class MainMenuManager : MonoBehaviour
         NotQuitePlatformerButton.onClick.AddListener(() => LoadingScreen.LoadScene("NotQuitePlatformer"));
         threeDSpawnButton.onClick.AddListener(() => LoadingScreen.LoadScene("3DSpawn"));
         PongButton.onClick.AddListener(() => LoadingScreen.LoadScene("Pong"));
+        FPSButton.onClick.AddListener(() => LoadingScreen.LoadScene("FPS"));
+
 
 
     }

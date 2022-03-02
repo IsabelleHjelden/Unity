@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Pong.unity
     guid: bf215291ef2933a49a61b00fb031ae92
+  - enabled: 1
+    path: Assets/Scenes/FPS.unity
+    guid: 5bdd0a4bea21e1f46978d3d6f15cebdf
   m_configObjects: {}
